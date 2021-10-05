@@ -1,0 +1,57 @@
+
+@media (max-width:992px) 
+{
+    .slidersec .carousel-inner .carousel-item .auto-container h2{font-size: 60px;}
+    .slidersec .carousel-inner .carousel-item .auto-container{left: 80px;}
+    .slidersec .carousel-inner .carousel-item .auto-container a{font-size: 18px;}
+    .Services_Section .container .Services_Section_text h2  {font-size: 40px ; text-align: center;}
+    .design-fix .pages h2 {font-size: 30px ; text-align: center;}
+
+    .services-section-two .container h2  {font-size: 35px ; text-align: center;}
+    .services-section-two .container p {font-size: 15px ;}
+    .latest_projects .our_latest_projects .container h2 {font-size: 30px ;}
+    .latest_projects .our_latest_projects .container .filters .filter-tabs li{font-size: 17px;}
+    .people_says  h1 {font-size: 30px ; }
+    .contact_us h2{font-size: 35px;}
+    .contact_us .text {font-size: 20px ;}
+    .contact_us .btn-light{font-size: 18px;  padding: 10px 37px;}
+}
+
+@media (max-width:768px) 
+{
+    .slidersec .carousel-inner .carousel-item .auto-container h2{font-size: 40px;}
+    .slidersec .carousel-inner .carousel-item .auto-containe{left: 50px;}
+    .slidersec .carousel-inner .carousel-item .auto-container a{font-size: 15px;}
+    .Services_Section .container .Services_Section_text h2 ,
+    .design-fix .pages h2 {font-size: 25px ; text-align: center;}
+    .services-section-two .container h2 {font-size: 30px ; text-align: center;}
+    .services-section-two .container p {font-size: 15px ;}
+    .latest_projects .our_latest_projects .container h2 {font-size: 25px ;}
+    .latest_projects .our_latest_projects .container .filters .filter-tabs li{font-size: 13px;}
+    .people_says  h1 {font-size: 30px ; }
+    .contact_us h2{font-size: 30px; margin-left: -5px;}
+    .contact_us .text {font-size: 15px ;}
+    .contact_us .btn-light{font-size: 17px; padding: 7px 21px;}
+
+}
+
+
+@media (max-width:576px) 
+{
+    .slidersec .carousel-inner .carousel-item .auto-container h2{font-size: 30px;}
+    .slidersec .carousel-inner .carousel-item .auto-container{left: 20px;}
+    .slidersec .carousel-inner .carousel-item .auto-container a{font-size: 10px;}
+    .slidersec .carousel-inner .carousel-item .auto-container .text {font-size: 12px;}
+    .Services_Section .container .Services_Section_text h2 {font-size: 25px ; text-align: center;}
+    .design-fix .pages h2 {font-size: 25px ; text-align: center;}
+    .services-section-two .container h2{font-size: 30px ; text-align: center;}
+    .services-section-two .container p {font-size: 10px ;}
+    .latest_projects .our_latest_projects .container h2 {font-size: 25px ;}
+    .latest_projects .our_latest_projects .container .filters .filter-tabs li{font-size: 10px;}
+    .people_says  h1 {font-size: 25px ; }
+    .contact_us h2{font-size: 25px;}
+    .contact_us .text {font-size: 15px ;margin-left: 16px;}
+    .contact_us .btn-light{font-size: 13px;padding: 2px 14px;}
+
+}
+

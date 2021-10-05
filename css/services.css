@@ -1,0 +1,169 @@
+
+
+.page-title{
+	position:relative;
+	padding:190px 0px 70px;
+	background-size:cover;
+	background-repeat:no-repeat;
+	background-position:right center;
+}
+
+.page-title:before{
+	position:absolute;
+	content:'';
+	left:0px;
+	top:0px;
+	right:0px;
+	bottom:0px;
+	transition: all 900ms ease;
+    -webkit-transition: all 900ms ease;
+	background-image: -webkit-linear-gradient(left, rgba(0,0,0,0) 0%, #000000 100%);
+	background-image: linear-gradient(to left, rgba(0,0,0,0) 0%, #000000 100%);
+}
+
+.page-title .container{
+	position:relative;
+}
+.page-title h2{
+	position:relative;
+	color:#ffffff;
+	font-weight:700;
+	line-height:1.2em;
+	margin-bottom: 10px;
+	font-size:50px;
+	text-transform:capitalize;
+}
+.page-breadcrumb{
+	position:relative;
+}
+.page-breadcrumb li{
+	position:relative;
+	display:inline-block;
+	margin-right:10px;
+	padding-right:15px;
+	color:#ffffff;
+	font-size:14px;
+	font-weight:400;
+	text-transform:capitalize;
+}
+
+.page-breadcrumb li:after{
+	position:absolute;
+	content: ">";
+	right:-2px;
+	top:1px;
+	color:#ffffff;
+	font-size:13px;
+	font-weight:700;
+	font-family: "Flaticon";
+}
+
+.page-breadcrumb li:last-child::after{
+	display: none;
+}
+
+.page-breadcrumb li:last-child{
+	padding-right:0px;
+	margin-right:0px;
+}
+
+.page-breadcrumb li a{
+	color:#dfb162;
+	font-weight:400;
+	text-transform: capitalize;
+	transition:all 0.3s ease;
+	-webkit-transition:all 0.3s ease;
+
+}
+.page-breadcrumb li a:hover{
+	color:#ffffff;
+}
+
+
+
+.design-fix .design-fix-header 
+{
+    padding-bottom: 50px;
+}
+
+
+.design-fix .design-fix-header h2
+{
+    font-size: 38px;
+    line-height: 1.2em;
+    color: #242424;
+    font-weight: 700;
+}
+.design-fix .design-fix-header p
+{
+    color: #797979;
+    font-size: 16px;
+    line-height: 1.9em;
+    margin-top: 12px;
+}
+
+.design-fix .card .card-body h3
+{
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
+.design-fix .card
+{
+    border-radius: 8px;
+    box-shadow: 0px 0px 15px rgb(0 0 0 / 20%);
+}
+.design-fix .card .card-body .text
+{
+    font-size: 15px;
+    color: #a0a0a0;
+    font-weight: 400;
+    line-height: 1.9em;
+    margin-top: 12px;
+    margin-bottom: 16px;
+    font-family: 'Inconsolata', monospace;
+}
+.design-fix .card .card-body h3
+{
+    font-family: 'Cinzel', serif;
+}
+.design-fix .card .card-body a
+{
+    color: #dfb162;
+    font-size: 20px;
+}
+
+.design-fix .card:hover .card-body h3
+{
+    color: #dfb162;
+    
+
+}
+.gallary 
+{
+    padding-bottom: 80px;
+}
+
+.gallary .container .overlay .content ul li
+{
+    margin-right: 15px;
+}
+
+.gallary .container .overlay .content h3
+{
+    font-size: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
