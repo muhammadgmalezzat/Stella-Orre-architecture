@@ -1,0 +1,61 @@
+$flaticon-font: "flaticon";
+
+@font-face {
+    font-family: $flaticon-font;
+    src: url("./flaticon.ttf?fdf05e471eaf45fa6ef748ebb7253e2a") format("truetype"),
+url("./flaticon.woff?fdf05e471eaf45fa6ef748ebb7253e2a") format("woff"),
+url("./flaticon.woff2?fdf05e471eaf45fa6ef748ebb7253e2a") format("woff2"),
+url("./flaticon.eot?fdf05e471eaf45fa6ef748ebb7253e2a#iefix") format("embedded-opentype"),
+url("./flaticon.svg?fdf05e471eaf45fa6ef748ebb7253e2a#flaticon") format("svg");
+}
+
+i[class^="flaticon-"]:before, i[class*=" flaticon-"]:before {
+    font-family: flaticon !important;
+    font-style: normal;
+    font-weight: normal !important;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+$flaticon-map: (
+    "apartment": "\f101",
+    "shop": "\f102",
+    "working": "\f103",
+    "sketch": "\f104",
+    "hand-shake": "\f105",
+    "answer": "\f106",
+    "home": "\f107",
+    "hospital": "\f108",
+    "hotel": "\f109",
+);
+
+.flaticon-apartment:before {
+    content: map-get($flaticon-map, "apartment");
+}
+.flaticon-shop:before {
+    content: map-get($flaticon-map, "shop");
+}
+.flaticon-working:before {
+    content: map-get($flaticon-map, "working");
+}
+.flaticon-sketch:before {
+    content: map-get($flaticon-map, "sketch");
+}
+.flaticon-hand-shake:before {
+    content: map-get($flaticon-map, "hand-shake");
+}
+.flaticon-answer:before {
+    content: map-get($flaticon-map, "answer");
+}
+.flaticon-home:before {
+    content: map-get($flaticon-map, "home");
+}
+.flaticon-hospital:before {
+    content: map-get($flaticon-map, "hospital");
+}
+.flaticon-hotel:before {
+    content: map-get($flaticon-map, "hotel");
+}
