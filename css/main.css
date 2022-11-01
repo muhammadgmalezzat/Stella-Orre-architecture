@@ -6,7 +6,6 @@
 }
 body
 {background-color:#fff;}
-
 /* <!--start navbar--> */
 .navbar {background-color:#272727 ;}
 .navbar .container .navbar-brand {color:#FFFFFF ;font-size: 35px}
@@ -88,7 +87,8 @@ body
 {
     max-width: 550px;
     margin-bottom: 30px;
-    font-family: 'Inconsolata', monospace;
+    font-family: 'EB Garamond', serif;
+    font-size: 20px;
 }
 .slidersec .carousel-inner .carousel-item .auto-container a
 {
@@ -167,7 +167,7 @@ body
     font-size: 40px;
     border-left: 2px solid #dfb162;
     color: #dfb162;
-    font-family: 'Otomanopee One', sans-serif;
+    font-family: sans-serif;
     font-weight: bold;
 }
 
@@ -229,7 +229,8 @@ text-align: left;
 .Services_Section .container .Services_block_1 .service_text h3:hover{color: #dfb162;}
 .Services_Section .container .Services_block_1 .service_text p{
     color:#cccccc;
-    font-family: 'Inconsolata', monospace;
+    font-family:  'EB Garamond', serif;
+    font-size: 20px;
 }
 .Services_Section .container .Services_block_1 .service_text a
 {
@@ -267,7 +268,7 @@ text-align: left;
 }
 .services-section-two .container .service-block-two .inner-box h3,
 .services-section-two .container .service-block-two .inner-box .read-more{font-family: 'Cinzel', serif;}
-.services-section-two .container .service-block-two .inner-box p{font-family: 'Inconsolata', monospace;}
+.services-section-two .container .service-block-two .inner-box p{font-family:  'EB Garamond', serif; font-size: 20px;}
 .services-section-two .container .service-block-two .inner-box:hover{background-color: #dfb162;}
 .services-section-two .container .service-block-two .inner-box:hover h3{color: #FFFFFF;}
 .services-section-two .container .service-block-two .inner-box:hover p{color: #FFFFFF;}
@@ -461,7 +462,7 @@ margin-right: 5px;
 }
 .people_says .carousel-inner .block .row .content{text-align: left;}
 .people_says .carousel-inner .block .row .content h4{font-family: 'Cinzel', serif;}
-.people_says .carousel-inner .block .row .content .info-text{font-family: 'Inconsolata', monospace;}
+.people_says .carousel-inner .block .row .content .info-text{font-family:  'EB Garamond', serif; font-size: 20px;}
 .people_says .carousel-inner .block .row .content .user_name
 {
     font-weight: bold;
@@ -639,12 +640,12 @@ margin-right: 5px;
 .feature-block .inner-box .lower-content .text{
 	position:relative;
 	color:#cdcdcd;
-	font-size:16px;
+font-size: 20px;
 	line-height:1.8em;
 	margin-top:14px;
 	transition: all 0.6s ease;
     -webkit-transition: all 0.6s ease;
-    font-family: 'Inconsolata', monospace;
+    font-family:  'EB Garamond', serif;
 }
 .feature-block .inner-box:hover .lower-content h3 a{color:#ffffff;}
 
